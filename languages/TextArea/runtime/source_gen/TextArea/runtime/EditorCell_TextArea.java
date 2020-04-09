@@ -37,8 +37,10 @@ public class EditorCell_TextArea extends EditorCell_ComponentBase {
     }
     EditorCell_TextArea result = new EditorCell_TextArea(editorContext, node, accessor);
 
-    for (Pair<SNodeReference, String> pair : listener.popCleanlyReadAccessedProperties()) {
-      editorContext.getEditorComponent().getUpdater().getCurrentUpdateSession().registerCleanDependency(result, pair);
+    if (listener != null) {
+      for (Pair<SNodeReference, String> pair : listener.popCleanlyReadAccessedProperties()) {
+        editorContext.getEditorComponent().getUpdater().getCurrentUpdateSession().registerCleanDependency(result, pair);
+      }
     }
     return result;
   }
@@ -50,8 +52,9 @@ public class EditorCell_TextArea extends EditorCell_ComponentBase {
   private void changeText() {
     getContext().getRepository().getModelAccess().executeCommandInEDT(new Runnable() {
       public void run() {
-        if (!(myAccessor.getText().equals(myArea.getText()))) {
-          myAccessor.setText(myArea.getText());
+        String areaText = myArea.getText();
+        if (!(check_6rt0gl_a0b0a0a0a6(myAccessor.getText(), areaText))) {
+          myAccessor.setText(areaText);
         }
       }
     });
@@ -59,10 +62,10 @@ public class EditorCell_TextArea extends EditorCell_ComponentBase {
   }
   @Override
   public void synchronizeViewWithModel() {
-    if (!(myAccessor.getText().equals(myArea.getText()))) {
-      myArea.setText(myAccessor.getText());
+    String accessorText = myAccessor.getText();
+    if (!(check_6rt0gl_a0b0h(accessorText, myArea))) {
+      myArea.setText(accessorText);
     }
-
   }
 
   private class MyDocumentListener implements DocumentListener {
@@ -78,5 +81,17 @@ public class EditorCell_TextArea extends EditorCell_ComponentBase {
     public void changedUpdate(DocumentEvent event) {
       changeText();
     }
+  }
+  private static boolean check_6rt0gl_a0b0a0a0a6(String checkedDotOperand, String areaText) {
+    if (null != checkedDotOperand) {
+      return checkedDotOperand.equals(areaText);
+    }
+    return false;
+  }
+  private static boolean check_6rt0gl_a0b0h(String checkedDotOperand, JTextArea myArea) {
+    if (null != checkedDotOperand) {
+      return checkedDotOperand.equals(myArea.getText());
+    }
+    return false;
   }
 }
