@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:e9cecb2e-6b2e-48d1-90bc-5054f06ed6b8(TextArea.runtime)/2609283871296711597">
+    <file name="EditorCell_TextArea.java">
+      <node id="2609283871296723797" at="22,0,23,0" concept="2" trace="myAccessor" />
+      <node id="2609283871296741831" at="23,0,24,0" concept="2" trace="myArea" />
+      <node id="2609283871296814821" at="24,0,25,0" concept="2" trace="myPane" />
+      <node id="2609283871296716129" at="25,95,26,31" concept="10" />
+      <node id="2609283871296723804" at="26,31,27,31" concept="1" />
+      <node id="2609283871297434966" at="27,31,28,39" concept="1" />
+      <node id="2609283871296829438" at="28,39,29,71" concept="1" />
+      <node id="2609283871297648320" at="31,113,32,99" concept="6" />
+      <node id="2609283871297648335" at="34,29,35,52" concept="1" />
+      <node id="2609283871297605745" at="37,5,38,88" concept="6" />
+      <node id="2609283871297652968" at="38,88,39,0" concept="8" />
+      <node id="2609283871297585830" at="40,91,41,118" concept="1" />
+      <node id="2609283871297703972" at="42,5,43,18" concept="7" />
+      <node id="2609283871296822477" at="47,36,48,18" concept="7" />
+      <node id="2609283871297422270" at="53,63,54,47" concept="1" />
+      <node id="2609283871297624891" at="57,7,58,0" concept="8" />
+      <node id="2609283871297535611" at="62,59,63,43" concept="1" />
+      <node id="2609283871297987614" at="64,5,65,0" concept="8" />
+      <node id="2609283871296866818" at="70,51,71,19" concept="1" />
+      <node id="2609283871296867320" at="74,51,75,19" concept="1" />
+      <node id="2609283871296867782" at="78,52,79,19" concept="1" />
+      <node id="2609283871297648329" at="33,48,36,7" concept="4" />
+      <node id="2609283871297666661" at="39,0,42,5" concept="3" />
+      <node id="2609283871297633972" at="52,25,55,9" concept="4" />
+      <node id="2609283871297988197" at="61,42,64,5" concept="4" />
+      <node id="2609283871296847983" at="69,0,73,0" concept="5" trace="insertUpdate#(Ljavax/swing/event/DocumentEvent;)V" />
+      <node id="2609283871296847991" at="73,0,77,0" concept="5" trace="removeUpdate#(Ljavax/swing/event/DocumentEvent;)V" />
+      <node id="2609283871296847999" at="77,0,81,0" concept="5" trace="changedUpdate#(Ljavax/swing/event/DocumentEvent;)V" />
+      <node id="2609283871297648323" at="32,99,37,5" concept="4" />
+      <node id="2609283871296719670" at="45,0,50,0" concept="5" trace="getComponent#()Ljavax/swing/JComponent;" />
+      <node id="2609283871297421794" at="52,0,57,0" concept="5" trace="run#()V" />
+      <node id="2609283871296715508" at="25,0,31,0" concept="0" trace="EditorCell_TextArea#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/nodeEditor/cells/ModelAccessor;)V" />
+      <node id="2609283871297392432" at="50,29,57,7" concept="1" />
+      <node id="2609283871297532348" at="60,0,67,0" concept="5" trace="synchronizeViewWithModel#()V" />
+      <node id="2609283871296861077" at="50,0,60,0" concept="5" trace="changeText#()V" />
+      <node id="2609283871297599111" at="31,0,45,0" concept="9" trace="createCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/nodeEditor/cells/ModelAccessor;)LTextArea/runtime/EditorCell_TextArea;" />
+      <scope id="2609283871297648334" at="34,29,35,52" />
+      <scope id="2609283871297666663" at="40,91,41,118" />
+      <scope id="2609283871296719681" at="47,36,48,18" />
+      <scope id="2609283871297633974" at="53,63,54,47" />
+      <scope id="2609283871297988198" at="62,59,63,43" />
+      <scope id="2609283871296847989" at="70,51,71,19" />
+      <scope id="2609283871296847997" at="74,51,75,19" />
+      <scope id="2609283871296848005" at="78,52,79,19" />
+      <scope id="2609283871297648328" at="33,48,36,7" />
+      <scope id="2609283871297666661" at="39,0,42,5">
+        <var name="pair" id="2609283871297666664" />
+      </scope>
+      <scope id="2609283871297421795" at="52,25,55,9" />
+      <scope id="2609283871296715891" at="25,95,29,71" />
+      <scope id="2609283871297532354" at="61,42,65,0" />
+      <scope id="2609283871296847983" at="69,0,73,0">
+        <var name="event" id="2609283871296847987" />
+      </scope>
+      <scope id="2609283871296847991" at="73,0,77,0">
+        <var name="event" id="2609283871296847995" />
+      </scope>
+      <scope id="2609283871296847999" at="77,0,81,0">
+        <var name="event" id="2609283871296848003" />
+      </scope>
+      <scope id="2609283871296719670" at="45,0,50,0" />
+      <scope id="2609283871297421794" at="52,0,57,0" />
+      <scope id="2609283871296715508" at="25,0,31,0">
+        <var name="accessor" id="2609283871296721582" />
+        <var name="editorContext" id="2609283871296715512" />
+        <var name="node" id="2609283871296715515" />
+      </scope>
+      <scope id="2609283871297532348" at="60,0,67,0" />
+      <scope id="2609283871296861080" at="50,29,58,0" />
+      <scope id="2609283871296861077" at="50,0,60,0" />
+      <scope id="2609283871297599114" at="31,113,43,18">
+        <var name="listener" id="2609283871297648319" />
+        <var name="result" id="2609283871297605746" />
+      </scope>
+      <scope id="2609283871297599111" at="31,0,45,0">
+        <var name="accessor" id="2609283871297602413" />
+        <var name="editorContext" id="2609283871297602409" />
+        <var name="node" id="2609283871297602411" />
+      </scope>
+      <unit id="2609283871297421794" at="51,74,57,5" name="TextArea.runtime.EditorCell_TextArea$1" />
+      <unit id="2609283871296826524" at="68,0,82,0" name="TextArea.runtime.EditorCell_TextArea$MyDocumentListener" />
+      <unit id="2609283871296711597" at="21,0,83,0" name="TextArea.runtime.EditorCell_TextArea" />
+    </file>
+  </root>
+</debug-info>
+

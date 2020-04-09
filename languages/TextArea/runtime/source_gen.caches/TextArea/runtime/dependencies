@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="TextArea.runtime.EditorCell_TextArea">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.Runnable" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="javax.swing.JComponent" />
+    <classNode dependClassName="javax.swing.JScrollPane" />
+    <classNode dependClassName="javax.swing.JTextArea" />
+    <classNode dependClassName="javax.swing.event.DocumentEvent" />
+    <classNode dependClassName="javax.swing.event.DocumentListener" />
+    <classNode dependClassName="jetbrains.mps.nodeEditor.cells.IPropertyAccessor" />
+    <classNode dependClassName="jetbrains.mps.nodeEditor.cells.ModelAccessor" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.EditorContext" />
+    <classNode dependClassName="jetbrains.mps.smodel.NodeReadAccessCasterInEditor" />
+    <classNode dependClassName="jetbrains.mps.smodel.NodeReadAccessInEditorListener" />
+    <classNode dependClassName="jetbrains.mps.util.Pair" />
+    <classNode dependClassName="org.jetbrains.annotations.NotNull" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNodeReference" />
+    <classNode extendsClassName="jetbrains.mps.nodeEditor.cells.EditorCell_ComponentBase" />
+  </dependency>
+</dependenciesRoot>
+
