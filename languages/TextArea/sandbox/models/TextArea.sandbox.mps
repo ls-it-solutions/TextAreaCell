@@ -24,7 +24,7 @@
   <node concept="uZmst" id="2gQ2tGUMXJW">
     <property role="TrG5h" value="Root" />
     <node concept="uZlMa" id="2gQ2tGURkhS" role="uZmos">
-      <property role="uZnIm" value="asadddsasd" />
+      <property role="uZnIm" value="asadddsasd&#10;Also 2019.3.4 akzeptiert noch LF&#10;" />
     </node>
   </node>
 </model>
