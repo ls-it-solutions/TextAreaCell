@@ -176,7 +176,7 @@
             <property role="3cmrfH" value="5" />
           </node>
           <node concept="3cmrfG" id="2gQ2tGUNmyA" role="37wK5m">
-            <property role="3cmrfH" value="20" />
+            <property role="3cmrfH" value="80" />
           </node>
         </node>
       </node>
