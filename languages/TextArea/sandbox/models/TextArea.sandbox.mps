@@ -12,7 +12,7 @@
         <property id="2609283871296680525" name="prop" index="uZnIm" />
       </concept>
       <concept id="2609283871296679622" name="SandboxLanguage.structure.Root" flags="ng" index="uZmst">
-        <child id="2609283871296679879" name="children" index="uZmos" />
+        <child id="633116020189619257" name="children" index="1PMUej" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -23,8 +23,8 @@
   </registry>
   <node concept="uZmst" id="2gQ2tGUMXJW">
     <property role="TrG5h" value="Root" />
-    <node concept="uZlMa" id="2gQ2tGURkhS" role="uZmos">
-      <property role="uZnIm" value="asadddsasd" />
+    <node concept="uZlMa" id="z9hUDX0OlH" role="1PMUej">
+      <property role="uZnIm" value="Line one&#10;two&#10;three" />
     </node>
   </node>
 </model>

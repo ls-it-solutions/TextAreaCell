@@ -7,7 +7,7 @@
   </languages>
   <imports>
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
-    <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" implicit="true" />
+    <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -21,7 +21,7 @@
       </concept>
       <concept id="1071489288298" name="jetbrains.mps.lang.structure.structure.LinkDeclaration" flags="ig" index="1TJgyj">
         <property id="1071599776563" name="role" index="20kJfa" />
-        <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
+        <property id="1071599937831" name="metaClass" index="20lmBu" />
         <property id="241647608299431140" name="linkId" index="IQ2ns" />
         <reference id="1071599976176" name="target" index="20lvS9" />
       </concept>
@@ -37,10 +37,10 @@
     <property role="TrG5h" value="CellModel_TextArea" />
     <property role="34LRSv" value="text area" />
     <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
-    <node concept="1TJgyj" id="fBF1KQc" role="1TKVEi">
+    <node concept="1TJgyj" id="z9hUDX0odj" role="1TKVEi">
+      <property role="IQ2ns" value="633116020189528915" />
+      <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="propertyDeclaration" />
-      <property role="20lbJX" value="fLJekj4/1" />
-      <property role="IQ2ns" value="1073389964684" />
       <ref role="20lvS9" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
     </node>
   </node>

@@ -55,7 +55,7 @@
     </language>
     <language id="57e598f9-6f95-4540-9a97-74ff1e983c96" name="TextArea">
       <concept id="2609283871296656699" name="TextArea.structure.CellModel_TextArea" flags="ng" index="uZhNw">
-        <reference id="1073389964684" name="propertyDeclaration" index="3F1KPP" />
+        <reference id="633116020189528915" name="propertyDeclaration" index="1PMcjT" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -80,7 +80,7 @@
         </node>
       </node>
       <node concept="3F2HdR" id="2gQ2tGUMV4I" role="3EZMnx">
-        <ref role="1NtTu8" to="ajk1:2gQ2tGUMQZ7" resolve="children" />
+        <ref role="1NtTu8" to="ajk1:z9hUDX0IgT" resolve="children" />
         <node concept="l2Vlx" id="2gQ2tGUMV4K" role="2czzBx" />
         <node concept="pj6Ft" id="2gQ2tGUMV6P" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -102,8 +102,8 @@
     <node concept="2aJ2om" id="2gQ2tGUMYdC" role="CpUAK">
       <ref role="2$4xQ3" node="2gQ2tGUMXV7" resolve="textArea" />
     </node>
-    <node concept="uZhNw" id="2gQ2tGUOKai" role="2wV5jI">
-      <ref role="3F1KPP" to="ajk1:2gQ2tGUMR9d" resolve="prop" />
+    <node concept="uZhNw" id="z9hUDX0D7$" role="2wV5jI">
+      <ref role="1PMcjT" to="ajk1:2gQ2tGUMR9d" resolve="prop" />
     </node>
   </node>
 </model>

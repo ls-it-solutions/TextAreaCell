@@ -56,15 +56,15 @@
     <property role="TrG5h" value="Root" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="2gQ2tGUMQZ7" role="1TKVEi">
-      <property role="IQ2ns" value="2609283871296679879" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="children" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="2gQ2tGUMPlh" resolve="ConceptWithProperty" />
-    </node>
     <node concept="PrWs8" id="2gQ2tGUMR59" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="z9hUDX0IgT" role="1TKVEi">
+      <property role="IQ2ns" value="633116020189619257" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="children" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="2gQ2tGUMPlh" resolve="ConceptWithProperty" />
     </node>
   </node>
 </model>

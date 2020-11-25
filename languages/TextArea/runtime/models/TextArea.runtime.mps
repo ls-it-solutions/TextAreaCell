@@ -176,7 +176,7 @@
             <property role="3cmrfH" value="5" />
           </node>
           <node concept="3cmrfG" id="2gQ2tGUNmyA" role="37wK5m">
-            <property role="3cmrfH" value="20" />
+            <property role="3cmrfH" value="80" />
           </node>
         </node>
       </node>
@@ -254,13 +254,13 @@
               <ref role="3cqZAo" node="2gQ2tGUN677" resolve="myArea" />
             </node>
             <node concept="liA8E" id="2gQ2tGUPKzk" role="2OqNvi">
-              <ref role="37wK5l" to="r791:~JTextComponent.setText(java.lang.String)" resolve="setText" />
+              <ref role="37wK5l" to="r791:~JTextComponent.setText(java.lang.String):void" resolve="setText" />
               <node concept="2OqwBi" id="2gQ2tGUPLpP" role="37wK5m">
                 <node concept="37vLTw" id="2gQ2tGUPL78" role="2Oq$k0">
                   <ref role="3cqZAo" node="2gQ2tGUN1aI" resolve="accessor" />
                 </node>
                 <node concept="liA8E" id="2gQ2tGUPLHp" role="2OqNvi">
-                  <ref role="37wK5l" to="g51k:~ModelAccessor.getText()" resolve="getText" />
+                  <ref role="37wK5l" to="g51k:~ModelAccessor.getText():java.lang.String" resolve="getText" />
                 </node>
               </node>
             </node>
@@ -273,11 +273,11 @@
                 <ref role="3cqZAo" node="2gQ2tGUN677" resolve="myArea" />
               </node>
               <node concept="liA8E" id="2gQ2tGUNv6T" role="2OqNvi">
-                <ref role="37wK5l" to="r791:~JTextComponent.getDocument()" resolve="getDocument" />
+                <ref role="37wK5l" to="r791:~JTextComponent.getDocument():javax.swing.text.Document" resolve="getDocument" />
               </node>
             </node>
             <node concept="liA8E" id="2gQ2tGUNvqV" role="2OqNvi">
-              <ref role="37wK5l" to="r791:~Document.addDocumentListener(javax.swing.event.DocumentListener)" resolve="addDocumentListener" />
+              <ref role="37wK5l" to="r791:~Document.addDocumentListener(javax.swing.event.DocumentListener):void" resolve="addDocumentListener" />
               <node concept="2ShNRf" id="2gQ2tGUNx1Q" role="37wK5m">
                 <node concept="HV5vD" id="2gQ2tGUNyB7" role="2ShVmc">
                   <ref role="HV5vE" node="2gQ2tGUNqMs" resolve="EditorCell_TextArea.MyDocumentListener" />
@@ -317,7 +317,7 @@
             </node>
             <node concept="2YIFZM" id="2gQ2tGUQ$2T" role="33vP2m">
               <ref role="1Pybhc" to="w1kc:~NodeReadAccessCasterInEditor" resolve="NodeReadAccessCasterInEditor" />
-              <ref role="37wK5l" to="w1kc:~NodeReadAccessCasterInEditor.getReadAccessListener()" resolve="getReadAccessListener" />
+              <ref role="37wK5l" to="w1kc:~NodeReadAccessCasterInEditor.getReadAccessListener():jetbrains.mps.smodel.NodeReadAccessInEditorListener" resolve="getReadAccessListener" />
             </node>
           </node>
         </node>
@@ -345,7 +345,7 @@
                       <ref role="3cqZAo" node="2gQ2tGUQzqZ" resolve="listener" />
                     </node>
                     <node concept="liA8E" id="2gQ2tGUQzwM" role="2OqNvi">
-                      <ref role="37wK5l" to="w1kc:~NodeReadAccessInEditorListener.clearCleanlyReadAccessProperties()" resolve="clearCleanlyReadAccessProperties" />
+                      <ref role="37wK5l" to="w1kc:~NodeReadAccessInEditorListener.clearCleanlyReadAccessProperties():void" resolve="clearCleanlyReadAccessProperties" />
                     </node>
                   </node>
                 </node>
@@ -389,19 +389,19 @@
                             <ref role="3cqZAo" node="2gQ2tGUQodD" resolve="editorContext" />
                           </node>
                           <node concept="liA8E" id="2gQ2tGUQkRn" role="2OqNvi">
-                            <ref role="37wK5l" to="cj4x:~EditorContext.getEditorComponent()" resolve="getEditorComponent" />
+                            <ref role="37wK5l" to="cj4x:~EditorContext.getEditorComponent():jetbrains.mps.openapi.editor.EditorComponent" resolve="getEditorComponent" />
                           </node>
                         </node>
                         <node concept="liA8E" id="2gQ2tGUQlaX" role="2OqNvi">
-                          <ref role="37wK5l" to="cj4x:~EditorComponent.getUpdater()" resolve="getUpdater" />
+                          <ref role="37wK5l" to="cj4x:~EditorComponent.getUpdater():jetbrains.mps.openapi.editor.update.Updater" resolve="getUpdater" />
                         </node>
                       </node>
                       <node concept="liA8E" id="2gQ2tGUQluJ" role="2OqNvi">
-                        <ref role="37wK5l" to="22ra:~Updater.getCurrentUpdateSession()" resolve="getCurrentUpdateSession" />
+                        <ref role="37wK5l" to="22ra:~Updater.getCurrentUpdateSession():jetbrains.mps.openapi.editor.update.UpdateSession" resolve="getCurrentUpdateSession" />
                       </node>
                     </node>
                     <node concept="liA8E" id="2gQ2tGUQlMT" role="2OqNvi">
-                      <ref role="37wK5l" to="22ra:~UpdateSession.registerCleanDependency(jetbrains.mps.openapi.editor.cells.EditorCell,jetbrains.mps.util.Pair)" resolve="registerCleanDependency" />
+                      <ref role="37wK5l" to="22ra:~UpdateSession.registerCleanDependency(jetbrains.mps.openapi.editor.cells.EditorCell,jetbrains.mps.util.Pair):void" resolve="registerCleanDependency" />
                       <node concept="37vLTw" id="2gQ2tGUQJKU" role="37wK5m">
                         <ref role="3cqZAo" node="2gQ2tGUQp1M" resolve="result" />
                       </node>
@@ -427,7 +427,7 @@
                   <ref role="3cqZAo" node="2gQ2tGUQzqZ" resolve="listener" />
                 </node>
                 <node concept="liA8E" id="2gQ2tGUQInr" role="2OqNvi">
-                  <ref role="37wK5l" to="w1kc:~NodeReadAccessInEditorListener.popCleanlyReadAccessedProperties()" resolve="popCleanlyReadAccessedProperties" />
+                  <ref role="37wK5l" to="w1kc:~NodeReadAccessInEditorListener.popCleanlyReadAccessedProperties():java.util.Set" resolve="popCleanlyReadAccessedProperties" />
                 </node>
               </node>
             </node>
@@ -478,18 +478,18 @@
             <node concept="2OqwBi" id="2gQ2tGUP__L" role="2Oq$k0">
               <node concept="2OqwBi" id="2gQ2tGUP_86" role="2Oq$k0">
                 <node concept="1rXfSq" id="2gQ2tGUP$WI" role="2Oq$k0">
-                  <ref role="37wK5l" to="g51k:~EditorCell_Basic.getContext()" resolve="getContext" />
+                  <ref role="37wK5l" to="g51k:~EditorCell_Basic.getContext():jetbrains.mps.openapi.editor.EditorContext" resolve="getContext" />
                 </node>
                 <node concept="liA8E" id="2gQ2tGUP_wP" role="2OqNvi">
-                  <ref role="37wK5l" to="cj4x:~EditorContext.getRepository()" resolve="getRepository" />
+                  <ref role="37wK5l" to="cj4x:~EditorContext.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
                 </node>
               </node>
               <node concept="liA8E" id="2gQ2tGUP_WM" role="2OqNvi">
-                <ref role="37wK5l" to="lui2:~SRepository.getModelAccess()" resolve="getModelAccess" />
+                <ref role="37wK5l" to="lui2:~SRepository.getModelAccess():org.jetbrains.mps.openapi.module.ModelAccess" resolve="getModelAccess" />
               </node>
             </node>
             <node concept="liA8E" id="2gQ2tGUPAlw" role="2OqNvi">
-              <ref role="37wK5l" to="lui2:~ModelAccess.executeCommandInEDT(java.lang.Runnable)" resolve="executeCommandInEDT" />
+              <ref role="37wK5l" to="lui2:~ModelAccess.executeCommandInEDT(java.lang.Runnable):void" resolve="executeCommandInEDT" />
               <node concept="1bVj0M" id="2gQ2tGUPG7y" role="37wK5m">
                 <node concept="3clFbS" id="2gQ2tGUPG7z" role="1bW5cS">
                   <node concept="3cpWs8" id="1x9q67rmyIp" role="3cqZAp">
@@ -501,7 +501,7 @@
                           <ref role="3cqZAo" node="2gQ2tGUN677" resolve="myArea" />
                         </node>
                         <node concept="liA8E" id="1x9q67rmyIt" role="2OqNvi">
-                          <ref role="37wK5l" to="r791:~JTextComponent.getText()" resolve="getText" />
+                          <ref role="37wK5l" to="r791:~JTextComponent.getText():java.lang.String" resolve="getText" />
                         </node>
                       </node>
                     </node>
@@ -514,7 +514,7 @@
                             <ref role="3cqZAo" node="2gQ2tGUN1Hl" resolve="myAccessor" />
                           </node>
                           <node concept="liA8E" id="2gQ2tGUN$bL" role="2OqNvi">
-                            <ref role="37wK5l" to="g51k:~ModelAccessor.setText(java.lang.String)" resolve="setText" />
+                            <ref role="37wK5l" to="g51k:~ModelAccessor.setText(java.lang.String):void" resolve="setText" />
                             <node concept="37vLTw" id="1x9q67rmyIv" role="37wK5m">
                               <ref role="3cqZAo" node="1x9q67rmyIq" resolve="areaText" />
                             </node>
@@ -529,11 +529,11 @@
                             <ref role="3cqZAo" node="2gQ2tGUN1Hl" resolve="myAccessor" />
                           </node>
                           <node concept="liA8E" id="1x9q67rod_s" role="2OqNvi">
-                            <ref role="37wK5l" to="g51k:~ModelAccessor.getText()" resolve="getText" />
+                            <ref role="37wK5l" to="g51k:~ModelAccessor.getText():java.lang.String" resolve="getText" />
                           </node>
                         </node>
                         <node concept="liA8E" id="2gQ2tGUQYW2" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
+                          <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                           <node concept="37vLTw" id="1x9q67rmyIu" role="37wK5m">
                             <ref role="3cqZAo" node="1x9q67rmyIq" resolve="areaText" />
                           </node>
@@ -565,7 +565,7 @@
                 <ref role="3cqZAo" node="2gQ2tGUN1Hl" resolve="myAccessor" />
               </node>
               <node concept="liA8E" id="1x9q67rmpMJ" role="2OqNvi">
-                <ref role="37wK5l" to="g51k:~ModelAccessor.getText()" resolve="getText" />
+                <ref role="37wK5l" to="g51k:~ModelAccessor.getText():java.lang.String" resolve="getText" />
               </node>
             </node>
           </node>
@@ -578,7 +578,7 @@
                   <ref role="3cqZAo" node="2gQ2tGUN677" resolve="myArea" />
                 </node>
                 <node concept="liA8E" id="2gQ2tGUQ7TY" role="2OqNvi">
-                  <ref role="37wK5l" to="r791:~JTextComponent.setText(java.lang.String)" resolve="setText" />
+                  <ref role="37wK5l" to="r791:~JTextComponent.setText(java.lang.String):void" resolve="setText" />
                   <node concept="37vLTw" id="1x9q67rmpML" role="37wK5m">
                     <ref role="3cqZAo" node="1x9q67rmpMG" resolve="accessorText" />
                   </node>
@@ -592,13 +592,13 @@
                 <ref role="3cqZAo" node="1x9q67rmpMG" resolve="accessorText" />
               </node>
               <node concept="liA8E" id="2gQ2tGURQpN" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
+                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="2OqwBi" id="1x9q67roeDo" role="37wK5m">
                   <node concept="37vLTw" id="1x9q67roeDp" role="2Oq$k0">
                     <ref role="3cqZAo" node="2gQ2tGUN677" resolve="myArea" />
                   </node>
                   <node concept="liA8E" id="1x9q67roeDq" role="2OqNvi">
-                    <ref role="37wK5l" to="r791:~JTextComponent.getText()" resolve="getText" />
+                    <ref role="37wK5l" to="r791:~JTextComponent.getText():java.lang.String" resolve="getText" />
                   </node>
                 </node>
               </node>

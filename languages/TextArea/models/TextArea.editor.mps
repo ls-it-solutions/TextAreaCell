@@ -6,7 +6,7 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="3qem" ref="r:620aadb3-1237-4b97-965e-5f07a4817d4d(TextArea.structure)" implicit="true" />
+    <import index="3qem" ref="r:620aadb3-1237-4b97-965e-5f07a4817d4d(TextArea.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -37,28 +37,25 @@
       </concept>
     </language>
   </registry>
-  <node concept="24kQdi" id="2gQ2tGUMM3m">
+  <node concept="24kQdi" id="z9hUDX0odl">
     <ref role="1XX52x" to="3qem:2gQ2tGUMLkV" resolve="CellModel_TextArea" />
-    <node concept="3EZMnI" id="2gQ2tGUMM4o" role="2wV5jI">
-      <node concept="3F0ifn" id="2gQ2tGUMM5v" role="3EZMnx">
-        <property role="3F0ifm" value="{" />
+    <node concept="3EZMnI" id="z9hUDX0oeg" role="2wV5jI">
+      <node concept="l2Vlx" id="z9hUDX0oeh" role="2iSdaV" />
+      <node concept="3F0ifn" id="z9hUDX0oeB" role="3EZMnx">
+        <property role="3F0ifm" value="{ text area " />
       </node>
-      <node concept="3F0ifn" id="2gQ2tGUMM8_" role="3EZMnx">
-        <property role="3F0ifm" value="text area" />
-      </node>
-      <node concept="1iCGBv" id="2gQ2tGUMMbH" role="3EZMnx">
-        <ref role="1NtTu8" to="3qem:fBF1KQc" resolve="propertyDeclaration" />
-        <node concept="1sVBvm" id="2gQ2tGUMMbJ" role="1sWHZn">
-          <node concept="3F0A7n" id="2gQ2tGUMMcS" role="2wV5jI">
+      <node concept="1iCGBv" id="z9hUDX0oem" role="3EZMnx">
+        <ref role="1NtTu8" to="3qem:z9hUDX0odj" resolve="propertyDeclaration" />
+        <node concept="1sVBvm" id="z9hUDX0oeo" role="1sWHZn">
+          <node concept="3F0A7n" id="z9hUDX0oev" role="2wV5jI">
             <property role="1Intyy" value="true" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           </node>
         </node>
       </node>
-      <node concept="3F0ifn" id="2gQ2tGUMMhe" role="3EZMnx">
+      <node concept="3F0ifn" id="z9hUDX0oeN" role="3EZMnx">
         <property role="3F0ifm" value="}" />
       </node>
-      <node concept="l2Vlx" id="2gQ2tGUMM4r" role="2iSdaV" />
     </node>
   </node>
 </model>

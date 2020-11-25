@@ -2,6 +2,7 @@
 <model ref="r:9e4a2132-e1fe-47d4-b319-109130d3dbcf(main@generator)">
   <persistence version="9" />
   <languages>
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="11" />
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports>
@@ -12,8 +13,8 @@
     <import index="afwz" ref="r:e9cecb2e-6b2e-48d1-90bc-5054f06ed6b8(TextArea.runtime)" />
     <import index="g51k" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.cells(MPS.Editor/)" />
     <import index="uddc" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.menus.transformation(MPS.Editor/)" />
+    <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
     <import index="qvne" ref="r:8ff33705-85bf-4855-805c-06d68fbe233c(jetbrains.mps.editor.runtime.descriptor)" implicit="true" />
     <import index="tpcb" ref="r:00000000-0000-4000-0000-011c89590297(jetbrains.mps.lang.editor.behavior)" implicit="true" />
   </imports>
@@ -149,11 +150,11 @@
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="3364660638048049750" name="jetbrains.mps.lang.core.structure.PropertyAttribute" flags="ng" index="A9Btg">
-        <property id="1757699476691236117" name="name_DebugInfo" index="2qtEX9" />
+        <property id="1757699476691236117" name="propertyName" index="2qtEX9" />
         <property id="1341860900487648621" name="propertyId" index="P4ACc" />
       </concept>
       <concept id="3364660638048049745" name="jetbrains.mps.lang.core.structure.LinkAttribute" flags="ng" index="A9Btn">
-        <property id="1757699476691236116" name="role_DebugInfo" index="2qtEX8" />
+        <property id="1757699476691236116" name="linkRole" index="2qtEX8" />
         <property id="1341860900488019036" name="linkId" index="P3scX" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -206,8 +207,8 @@
                         <node concept="2OqwBi" id="6J9VvZhUtH_" role="3clFbG">
                           <node concept="2OqwBi" id="6J9VvZhUtHA" role="2Oq$k0">
                             <node concept="30H73N" id="6J9VvZhUtHB" role="2Oq$k0" />
-                            <node concept="3TrEf2" id="6J9VvZhUtHC" role="2OqNvi">
-                              <ref role="3Tt5mk" to="3qem:fBF1KQc" resolve="propertyDeclaration" />
+                            <node concept="3TrEf2" id="z9hUDX0p5x" role="2OqNvi">
+                              <ref role="3Tt5mk" to="3qem:z9hUDX0odj" resolve="propertyDeclaration" />
                             </node>
                           </node>
                           <node concept="2Xjw5R" id="6J9VvZhUtHD" role="2OqNvi">
@@ -229,8 +230,8 @@
                     <node concept="3clFbS" id="6J9VvZhUtHI" role="2VODD2">
                       <node concept="3clFbF" id="6J9VvZhUtHJ" role="3cqZAp">
                         <node concept="2OqwBi" id="6J9VvZhUtHK" role="3clFbG">
-                          <node concept="3TrEf2" id="6J9VvZhUtHL" role="2OqNvi">
-                            <ref role="3Tt5mk" to="3qem:fBF1KQc" resolve="propertyDeclaration" />
+                          <node concept="3TrEf2" id="z9hUDX0q9u" role="2OqNvi">
+                            <ref role="3Tt5mk" to="3qem:z9hUDX0odj" resolve="propertyDeclaration" />
                           </node>
                           <node concept="30H73N" id="6J9VvZhUtHM" role="2Oq$k0" />
                         </node>
@@ -247,7 +248,7 @@
                 <ref role="37wK5l" to="qvne:6OQfiPCHBjx" resolve="getCellFactory" />
               </node>
               <node concept="liA8E" id="1ByWmfQ$dRc" role="2OqNvi">
-                <ref role="37wK5l" to="f4zo:~EditorCellFactory.setPropertyInfo(jetbrains.mps.openapi.editor.menus.transformation.SPropertyInfo)" resolve="setPropertyInfo" />
+                <ref role="37wK5l" to="f4zo:~EditorCellFactory.setPropertyInfo(jetbrains.mps.openapi.editor.menus.transformation.SPropertyInfo):void" resolve="setPropertyInfo" />
                 <node concept="2ShNRf" id="1ByWmfQ$eK5" role="37wK5m">
                   <node concept="1pGfFk" id="1ByWmfQ$gdP" role="2ShVmc">
                     <ref role="37wK5l" to="uddc:~SPropertyInfo.&lt;init&gt;(org.jetbrains.mps.openapi.model.SNode,org.jetbrains.mps.openapi.language.SProperty)" resolve="SPropertyInfo" />
